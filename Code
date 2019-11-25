@@ -11,7 +11,7 @@ ranWords = ["Death", "Defy", "Demise", "Doom", "Slow", "Quick", "Coming", "Pain"
             "Gruesome", "Ugly", "Watch out", "Screams", "Terror", "Anguish",
             "No escape", "Goodbye", "Hello", "The End"]
 
-for line in range (10000):
+for line in range (50000):
   word = random.choice(ranWords)
   novel += word
   novel += ",your time is coming"
